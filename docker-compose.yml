@@ -1,0 +1,9 @@
+services:
+  forum_scraper:
+    build: .
+    container_name: worldforum_scraper
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    command: scrapy crawl sırbistan_spider

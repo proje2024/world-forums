@@ -1,0 +1,5 @@
+scrapy
+python-dotenv
+pytz
+langdetect
+python-dateutil
